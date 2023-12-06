@@ -3,7 +3,7 @@ let textarea = document.querySelector('.container textarea');
 
 let speechText =()=>{
   let speech = new SpeechSynthesisUtterance();
-  speech.lang = 'en-US';
+  speech.lang = 'en-in';
   speech.text = `${textarea.value}`;
   speech.rate = 0.9;
   speech.volume = 1;
